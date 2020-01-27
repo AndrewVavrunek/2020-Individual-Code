@@ -1,0 +1,60 @@
+public void robotControl(){
+    //for buttons (drums, hook, inverse, draw bridge respectively)
+    if(controller.getAButton())
+    {
+      
+    }
+
+    if(controller.getBButton())
+    {
+
+    }
+
+    if(controller.getXButton())
+    {
+    
+    }
+
+    if(controller.getYButton())
+    {
+      //reverse wheels
+      wheels.inverse();
+    }
+
+    //left trigger check
+    if(controller.getTriggerAxis(Hand.kLeft))
+    {
+
+    }
+
+    //right trigger check
+    if(controller.getTriggerAxis(Hand.kRight))
+    {
+
+    }
+
+    //left bumper check
+    if(controller.getBumper(Hand.kLeft))
+    {
+
+    }
+
+    //right bumper check
+    if(controller.getBumper(Hand.kRight))
+    {
+
+    }
+
+    //left joystick check
+    if(controller.getStickButton(Hand.kLeft))
+    {
+
+    }
+
+    //right joystick check
+    if(controller.getStickButton(Hand.kRight))
+    {
+      
+    }
+    
+  }
