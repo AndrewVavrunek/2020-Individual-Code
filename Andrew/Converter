@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Converter{
+public static void main (String args[]){
+
+Scanner sc = new Scanner(System.in);
+
+String convert = sc.nextLine();
+
+String numStr = sc.nextLine();
+double num = Double.parseDouble(numStr);
+
+if(convert.equals("in2cm"))
+{
+System.out.println(num*2.54);
+}
+else
+{
+System.out.println(num/2.54);
+}
+
+}
+}
